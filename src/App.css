@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+.Bannercarousel{
+  height: 200px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel .thumbs{
+  display: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carousel .control-dots .dot{
+  background-color: rgb(0, 255, 8) !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.NavbarElement p{
+  position: relative;
+  bottom: 20px;
+}
+.NavbarElement{
+  margin-left: 30px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.NavbarElement , a , p{
+  text-decoration: none;
+}
+.jjfwLM{
+  width: 110px;
+}
+/* .eHhdKf {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(1,1fr);
+  grid-gap: 2px;
+} */
+
+.OVerFlowXCarousel{
+  border: 2px solid red;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  padding: 10px;
+  margin: 5px;
+}
+.scrollbehaviourd::-webkit-scrollbar  ,.Sylo_main_div::-webkit-scrollbar{
+  display: none;
+}
+
+/* SyloSelectELements */
+.Sylo_main_div{
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  border-bottom: 4px solid rgb(255, 0, 153);
+  padding: 14px;
+}
+.Chipcolor{
+  background: radial-gradient(rgb(112, 79, 247) , rgb(66, 254, 82));
+ 
+}
+.aa , .af{
+  border-radius: 10px;
+  background: linear-gradient(rgba(57, 143, 57, 0.538) , rgba(214, 214, 76, 0.511));
+}
+.ab , .ae{
+  border-radius: 10px;
+  background: linear-gradient(yellow ,rgb(242, 211, 211));
+}
+.ac , .ag{
+  border-radius: 10px;
+  background: linear-gradient(rgba(187, 41, 187, 0.675) , orange);
+}
+.ad , .ah {
+  border-radius: 10px;
+  background: linear-gradient(rgb(237, 77, 77) , rgb(194, 54, 194));
+}
+.ai{
+  border-radius: 10px;
+  background: linear-gradient(rgba(165, 135, 52, 0.538) , rgba(164, 245, 3, 0.667));
+
+}
+.one{
+  height: 300px;
+  width: 300px;
+  border: 2px solid;
+  box-shadow: 2px 2px 4px rgb(47, 47, 47) , -2px -2px 4px rgb(51, 51, 51);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.Customer_review{
+  background: url("../src//assets/girl2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Customer_review2{
+  background: url("../src//assets/girls.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Icons_video{
+  font-size: 7rem !important;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Customer_mainDiv::-webkit-scrollbar{
+    display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* last section */
+.Images_section{
+  background: url("../src/assets/girl2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 50%;
+}
+/* .Like_Icons{
+  margin-left: 210px;
+  height: 30px;
+} */
+.Container-All_card{
+  display: flex;
+  overflow-x: scroll;
+  gap: 19px;
+}
+.Container-All_card::-webkit-scrollbar{
+  display: none;
+}
+.dotSizee{
+  font-size: 40px;
+}
+.respo{
+  height: 110px;
+  width: 400px;
+  display: flex;
+  gap: 10px;
+}
+@media screen and (max-width: 767px){
+.eHhdKf {
+    grid-template-columns: repeat(15 ,37%) !important;
+    grid-template-rows: 1fr;
+}
+.fOAmUs{
+  grid-template-columns: repeat(15 ,37%) !important;
+}
+}
+@media only screen and (max-width: 600px) {
+  .Navbar {
+    position: fixed;
+    bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    background-color: #eaddd8;
   }
-  to {
-    transform: rotate(360deg);
+  .Container-All_card{
+    display: flex;
+    flex-direction: column;
+  }
+  .respo{
+    width: 330px;
+    margin: 13px;
   }
 }

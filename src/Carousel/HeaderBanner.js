@@ -9,7 +9,7 @@ import img4 from "../assets/sigmund-F_m44ut3XTw-unsplash.jpg"
 import img5 from "../assets/gema-saputera-pJaocJrXGFQ-unsplash.jpg"
 const HeaderBanner = () => {
   return (
-    <Carousel >
+    <Carousel className='Carousel_part'>
                 <div>
                     <img src={tree} alt='' className='Bannercarousel' />
                     <p className="legend">claim now</p>

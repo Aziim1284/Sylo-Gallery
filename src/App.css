@@ -7,11 +7,21 @@
 .carousel .control-dots .dot{
   background-color: rgb(0, 255, 8) !important;
 }
+/* .Carousel_part{
+  margin-top: 30px;
+} */
 .Navbar{
   display: flex;
   gap: 30px;
   margin-bottom: 10px;
   width: 100%;
+  background-color: #eaddd8;
+  /* position: fixed;
+  top: 1px;
+  z-index: 1; */
+}
+.searchbar{
+  display: none;
 }
 .NavbarElement p{
   position: relative;
@@ -30,13 +40,6 @@
 .jjfwLM{
   width: 110px;
 }
-/* .eHhdKf {
-  display: grid;
-  grid-template-columns: repeat(8,1fr);
-  grid-template-rows: repeat(1,1fr);
-  grid-gap: 2px;
-} */
-
 .OVerFlowXCarousel{
   border: 2px solid red;
   width: 100%;
@@ -85,7 +88,7 @@
   background: linear-gradient(rgba(165, 135, 52, 0.538) , rgba(164, 245, 3, 0.667));
 
 }
-.one{
+.Customer_review , .Customer_review2{
   height: 300px;
   width: 300px;
   border: 2px solid;
@@ -93,15 +96,55 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  margin: 10px;
 }
-.Customer_review{
-  background: url("../src//assets/girl2.jpg");
+.one{
+  background: url("../src//assets/men.jfif");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
-.Customer_review2{
-  background: url("../src//assets/girls.jpg");
+.two{
+  background: url("../src//assets/wmen1.jfif");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.three{
+  background: url("../src//assets/men2.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.four{
+  background: url("../src//assets/men3.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.five{
+  background: url("../src//assets/wmen2.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.six{
+  background: url("../src//assets/men4.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.seven{
+  background: url("../src//assets/men5.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.eight{
+  background: url("../src//assets/wmen1.jfif");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .Icons_video{
@@ -114,7 +157,7 @@
 
 /* last section */
 .Images_section{
-  background: url("../src/assets/girl2.jpg");
+  background: url("../src/assets/photo.jfif");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -123,14 +166,47 @@
   height: 100%;
   width: 50%;
 }
-/* .Like_Icons{
-  margin-left: 210px;
-  height: 30px;
-} */
+.xfgh_ere{
+  background: url("../src/assets/photo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xfgh_erf{
+  background: url("../src/assets/photo2jfif.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xfgh_erg{
+  background: url("../src/assets/photo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xfgh_erh{
+  background: url("../src/assets/photo4jfif.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xfgh_eri{
+  background: url("../src/assets/photo5.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xfgh_erj{
+  background: url("../src/assets/photo6.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xfgh_erk{
+  background: url("../src/assets/photo7.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .Container-All_card{
   display: flex;
   overflow-x: scroll;
   gap: 19px;
+  margin: 10px;
+  padding: 10px;
 }
 .Container-All_card::-webkit-scrollbar{
   display: none;
@@ -169,7 +245,22 @@
     flex-direction: column;
   }
   .respo{
-    width: 330px;
+    width: 90vw;
     margin: 13px;
+  }
+  .searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchbar>input{
+    width: 95vw;
+    margin: 10px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 16px;
+    border: none;
+    box-shadow: inset 2px 2px 3px rgb(55, 55, 55) , inset -2px -2px 3px rgb(148, 147, 147);
+    margin-top: 13px;
   }
 }

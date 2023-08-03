@@ -10,25 +10,25 @@ const Customer = () => {
       <div className="Customer_review one">
         <PlayCircleIcon className='Icons_video'/>
       </div>
-      <div className="Customer_review2 one">
+      <div className="Customer_review2 two">
       <PlayCircleIcon className='Icons_video'/>
       </div>
-      <div className="Customer_review one">
+      <div className="Customer_review three">
         <PlayCircleIcon className='Icons_video'/>
       </div>
-      <div className="Customer_review2 one">
+      <div className="Customer_review2 four">
       <PlayCircleIcon className='Icons_video'/>
       </div>
-      <div className="Customer_review one">
+      <div className="Customer_review five">
         <PlayCircleIcon className='Icons_video'/>
       </div>
-      <div className="Customer_review2 one">
+      <div className="Customer_review2 six">
       <PlayCircleIcon className='Icons_video'/>
       </div>
-      <div className="Customer_review one">
+      <div className="Customer_review seven">
         <PlayCircleIcon className='Icons_video'/>
       </div>
-      <div className="Customer_review2 one">
+      <div className="Customer_review2 eight">
       <PlayCircleIcon className='Icons_video'/>
       </div>
     </div>

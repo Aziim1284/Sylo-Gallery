@@ -11,9 +11,9 @@ const Venue = () => {
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>* Most popular Venues *</h1>
-      <div style={{ overflowX: "scroll", display: "flex", gap: "13px" }} className="scrollbehaviourd">
+      <div style={{ overflowX: "scroll", display: "flex", gap: "13px" ,margin:"10px" , padding:"10px" }} className="scrollbehaviourd">
         <div>
-          <Card style={{ width: "300px" }}>
+          <Card style={{ width: "300px" }} className="Card_Orientation">
             <CardMedia
               sx={{ height: 140 }}
               image="https://picsum.photos/800/600?random=42"

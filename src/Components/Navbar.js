@@ -25,13 +25,9 @@ const Navbar = () => {
       <p>profile</p>
      </NavLink>
     </div>
-    {/* <div className='searchbutton'>
-    <form>
-	<label for="search">Search</label>
-	<input id="search" type="search" pattern=".*\S.*" required />
-	<span class="caret"></span>
-</form>
-  </div> */}
+      <div className="searchbar">
+        <input type="search" placeholder='Search here' />
+      </div>
     </div>
   )
 }
